@@ -8,3 +8,4 @@ RUN apk update \
 ADD ./ /root
 
 ENTRYPOINT [ "sh", "entrypoint.sh" ]
+CMD ["sh"]
