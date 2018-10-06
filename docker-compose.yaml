@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  cert:
+    build:
+      context: cert
+    volumes:
+      - ./ca:/root/ca
+      - ./certs:/root/certs
